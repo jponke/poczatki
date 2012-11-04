@@ -5,10 +5,10 @@
 #include<math.h>
 
 int main(){
-  double deg, rad;
+  double deg, rad;1
   printf("podaj kat w stopniach: ");
   scanf("%lf", &deg);
   rad=M_PI_2*deg/90;
-  printf("%lf deg = %lf rad\n",deg,rad);
+  printf(" %lf deg = %lf rad\n",deg,rad);
   return 0;
 }
