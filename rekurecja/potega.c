@@ -11,7 +11,7 @@ return n*n_k(n, k-1);
 
 int main(){
 	int a,b;
-	scanf("%d,%d",&a,&b);
+	scanf("%d %d",&a,&b);
 printf("%d^%d = %ld\n",a,b, n_k(a, b));
 }
 
